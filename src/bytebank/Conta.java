@@ -18,4 +18,14 @@ public class Conta {
 			return false;
 		}
 	}
+
+	public boolean tranfere(double valor, Conta destino) {
+
+		if (this.sacar(valor)) {
+			destino.deposita(valor);
+			return true;
+		} else {
+			return false;
+		}
+	}
 }
