@@ -3,7 +3,7 @@ package bytebank;
 public class CriaConta {
 	
 	public static void main(String[] args) {
-		Conta primeiraConta = new Conta();
+		Conta primeiraConta = new Conta(220,012);
 		primeiraConta.deposita(300);
 		
 		System.out.println(primeiraConta.getSaldo());
@@ -13,7 +13,7 @@ public class CriaConta {
 		
 		System.out.println(primeiraConta.getSaldo());
 		
-		Conta segundaConta = new Conta();
+		Conta segundaConta = new Conta(020,122);
 		segundaConta.deposita(150);
 		
 		System.out.println("Saldo Primeira Conta: " + primeiraConta.getSaldo());

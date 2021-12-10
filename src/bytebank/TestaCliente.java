@@ -4,9 +4,9 @@ public class TestaCliente {
 
 	public static void main(String[] args) {
 		
-		Conta primeiraConta = new Conta();
-		primeiraConta.setAgencia(122);
-		primeiraConta.setNumero(222);
+		Conta primeiraConta = new Conta(122, 222);
+		//primeiraConta.setAgencia(122);
+		//primeiraConta.setNumero(222);
 		primeiraConta.deposita(1100.50);
 		
 		Cliente cliente = new Cliente();

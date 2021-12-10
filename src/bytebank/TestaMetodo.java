@@ -4,7 +4,7 @@ public class TestaMetodo {
 
 	public static void main(String[] args) {
 		
-		Conta contaDaMaria = new Conta();
+		Conta contaDaMaria = new Conta(323, 855);
 		//contaDaMaria.saldo = 1000;
 		contaDaMaria.deposita(500);
 		
